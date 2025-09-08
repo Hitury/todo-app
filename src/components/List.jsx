@@ -1,28 +1,57 @@
 function List() {
-    return ( 
-        <ul className="list bg-base-100 rounded-box shadow-md">
-  
-  <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">Most played songs this week</li>
-  
-  <li className="list-row">
-    <div><img className="size-10 rounded-box" src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Dio-Brando.Jojo-s-Bizarre-Adventure.webp"/></div>
-    <div>
-      <div>Dio</div>
-      <div className="text-xs uppercase font-semibold opacity-60">MIJN GOAT</div>
-      <div className="text-xs uppercase font-semibold opacity-60">Mijn goat</div>
-    </div>
-    <button className="btn btn-square btn-ghost">
-      <svg className="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor"><path d="M6 3L20 12 6 21 6 3z"></path></g></svg>
-    </button>
-    <button className="btn btn-square btn-ghost">
-      <svg className="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></g></svg>
-    </button>
-  </li>
-  
-</ul>
+  return (
+    <ul className="list bg-[#f1666d] rounded-box shadow-md">
+      <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">Todo List</li>
 
-
-     );
+      <li className="list-row">
+        <div>
+          <div>Task Placeholder</div>
+          <div className="text-xs uppercase font-semibold opacity-60">
+            MIJN GOAT
+          </div>
+        </div>
+        <button className="btn btn-square btn-success btn-soft">
+          <svg
+            className="size-[1.2em]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+          >
+            <polyline
+              fill="none"
+              stroke="white"
+              stroke-width="2"
+              stroke-miterlimit="10"
+              points="29,7 11,25 3,17 "
+            />
+          </svg>
+        </button>
+        <button className="btn btn-square btn-error btn-soft">
+          <svg
+            className="size-[1.2em]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <g
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              strokeWidth="2"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                d="M5.12817 8.15391C5.12817 10.4103 5.12817 13.5898 5.12817 15.1283C5.23074 16.4616 5.3333 18.2052 5.43587 19.436C5.53843 20.8719 6.7692 22.0001 8.2051 22.0001H15.7948C17.2307 22.0001 18.4615 20.8719 18.5641 19.436C18.6666 18.2052 18.7692 16.4616 18.8718 15.1283C18.9743 13.5898 18.8718 10.4103 18.8718 8.15391H5.12817Z"
+                fill="#030D45"
+              />
+              <path
+                d="M19.1795 5.07698H16.6154L15.7949 3.53852C15.2821 2.61545 14.359 2.00006 13.3333 2.00006H10.8718C9.84615 2.00006 8.82051 2.61545 8.41026 3.53852L7.38462 5.07698H4.82051C4.41026 5.07698 4 5.48724 4 5.8975C4 6.30775 4.41026 6.71801 4.82051 6.71801H19.1795C19.5897 6.71801 20 6.41032 20 5.8975C20 5.38468 19.5897 5.07698 19.1795 5.07698ZM9.12821 5.07698L9.64103 4.25647C9.84615 3.84621 10.2564 3.53852 10.7692 3.53852H13.2308C13.7436 3.53852 14.1538 3.74365 14.359 4.25647L14.8718 5.07698H9.12821Z"
+                fill="#030D45"
+              />
+            </g>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  );
 }
 
 export default List;

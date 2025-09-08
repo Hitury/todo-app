@@ -9,19 +9,19 @@ function App() {
 
   return (
     <>
-      <div className="flex h-screen w-screen justify-center items-center bg-[#1B2021]">
-        <div className="card card-border border-white bg-base-100 w-96 shadow-xl p-10">
+      <div className="flex h-screen w-screen justify-center items-center bg-[#0a0a0a]">
+        <div className="card bg-[#171717] shadow-xl p-35">
           <div className="card-body">
-            <h1 className="card-title">Todo App</h1>
+            <h1 className="card-title text-[#f1666d]">Todo App</h1>
             <p>Created by IJvadeli & Hitury</p>
             <div className="flex card-actions flex-row items-center justify-center mt-5 mb-5">
-              <div className="join">
-                <div>
-                  <label className="input validator join-item">
+              <div className="join flex items-center">
+                <div className="">
+                  <label className="input validator h-9 join-item">
                     <input type="text" placeholder="Enter a Todo" required />
                   </label>
                 </div>
-                <button className="btn btn-neutral join-item">Join</button>
+                <button className="btn btn-neutral join-item bg-[#f1666d]">Join</button>
               </div>
             </div>
             <List />
