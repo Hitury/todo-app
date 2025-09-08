@@ -8,6 +8,7 @@ function List() {
     <div><img className="size-10 rounded-box" src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Dio-Brando.Jojo-s-Bizarre-Adventure.webp"/></div>
     <div>
       <div>Dio</div>
+      <div className="text-xs uppercase font-semibold opacity-60">MIJN GOAT</div>
       <div className="text-xs uppercase font-semibold opacity-60">Mijn goat</div>
     </div>
     <button className="btn btn-square btn-ghost">
